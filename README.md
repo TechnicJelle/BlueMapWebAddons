@@ -2,9 +2,9 @@
 Some scripts for the BlueMap Web App.
 
 ## Scripts
-- [Custom Sidebar Button](custom-sidebar-button/README.md)
-- [Distance Measurer / Ruler](distance-measurer/README.md)
-- [Watermark](watermark/README.md)
+- [Custom Sidebar Button](custom-sidebar-button)
+- [Distance Measurer / Ruler](distance-measurer)
+- [Watermark](watermark)
 
 ## Installation Instructions
 You can find the most up-to-date installation instructions for WebApp Scripts on the BlueMap Wiki:
