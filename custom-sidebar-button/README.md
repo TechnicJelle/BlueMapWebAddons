@@ -1,4 +1,4 @@
-[←Back](../README.md)
+[←Back](..)
 
 # Custom Sidebar Button
 
