@@ -6,7 +6,7 @@ There is currently no simple way to do this, sadly. The best way would be to clo
 modify that, and recompile it.  
 That is very complicated, though, and also a lot of effort.
 
-Luckily, a community member has devised a workaround to do this anyway! (Even if it's not ideal...)  
+Luckily, a community member [@Chicken](https://github.com/Chicken/) has devised a workaround to do this anyway! (Even if it's not ideal...)  
 For this, we will make use of the BlueMap feature that allows us to inject any custom JavaScript snippets that we want.
 
 To get started, you should create a `.js` file in your webroot (usually `/bluemap/web/`).  
