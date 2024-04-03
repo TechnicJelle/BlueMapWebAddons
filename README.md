@@ -4,6 +4,7 @@ Some scripts for the BlueMap Web App.
 ## Scripts
 - [Custom Sidebar Button](custom-sidebar-button)
 - [Distance Measurer / Ruler](distance-measurer)
+- [Map Icons](map-icons)
 - [Watermark](watermark)
 
 ## Installation Instructions
