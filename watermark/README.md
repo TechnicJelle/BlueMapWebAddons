@@ -7,13 +7,14 @@ Here's an example watermark image of the BlueMap logo:
 ![image](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/43885800-3c06-4ce0-95d0-c195fe726922)
 
 
-## Setup Instructions
+## Installation Instructions
+This script requires two files: a JavaScript file and a CSS file.
 
-This script requires two files: a JavaScript file and a CSS file.  
-Download or copy the JavaScript file ([BlueMapWatermark.js](BlueMapWatermark.js))
-and the CSS file ([BlueMapWatermark.css](BlueMapWatermark.css)) and register them with BlueMap.
+Download or copy both the [BlueMapWatermark.js](BlueMapWatermark.js) script file
+and the [BlueMapWatermark.css](BlueMapWatermark.css) style file to your webapp, and register them.
 
-The guides on how to do that are here: [css guide](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look) and [js guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons).
+Here is a [guide for the registering js file](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons)
+and a [guide for the registering css file](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look).
 
 ## Options
 In the JavaScript file, you can change the `anchor.href` link to change the link the watermark goes to when clicked.

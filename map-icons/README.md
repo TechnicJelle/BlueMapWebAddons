@@ -14,10 +14,10 @@ Thanks to community member [@TravelTimN](https://github.com/TravelTimN) for prov
 
 ## Setup Instructions
 
-To get started, you need to upload the world icon images that you'd like to use, into your assets webroot (
-usually `/bluemap/web/assets/`). Ideally, have the images be no larger than 32x32 pixels, and to use the code below, you
-should rename them to match the respective `.conf` file name found within `/BlueMap/maps/`, and the file type used in
-this example is a `.png`.
+To get started, you need to upload the world icon images that you'd like to use into your assets webroot (usually `/bluemap/web/assets/`).  
+Ideally, have the images be no larger than 32x32 pixels.  
+They should be named to match the `.conf` file names found within your BlueMap maps configs (in `BlueMap/maps/`).  
+The file type for every image should be the same. In this example, `.png` is used.
 
 Examples:
 
@@ -25,14 +25,9 @@ Examples:
 - `/bluemap/web/assets/world_nether.png`
 - `/bluemap/web/assets/world_the_end.png`
 
-Next, you should create a `.js` file in your webroot (usually `/bluemap/web/`).  
-Then you need to register that script with BlueMap, so it'll actually load it.  
-You do this in `webapp.conf`, by putting the file name in the `scripts: [ ]` list.  
-After adding it to the list, you'll probably want to reload BlueMap, so BlueMap applies the changes you've made to the
-configs.
-You can do so with the `/bluemap reload light` command.
+Create and register a new script ([guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons))
+with the following content:
 
-`/bluemap/web/map-icons.js`:
 ```js
 // trigger an update to map icons
 document.body.addEventListener("click", function() {

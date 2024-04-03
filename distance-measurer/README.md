@@ -15,5 +15,7 @@ Just click two blocks after eachother, and a line between them will appear.
 If you click the line, it'll show the distance between them.
 
 ## Installation Instructions
-Just copy the whole [BlueMapDistanceMeasurer.js](BlueMapDistanceMeasurer.js) file to your webapp and [register it](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons).  
-You don't need to edit the script at all for it to work.
+Download or copy the [BlueMapDistanceMeasurer.js](BlueMapDistanceMeasurer.js) file to your webapp, and register it.
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons))
+
+You don't need to edit the script at all for it to work, and it has no options.
