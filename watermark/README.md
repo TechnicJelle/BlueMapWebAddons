@@ -1,6 +1,12 @@
 [←Back](..)
 
 # Watermark
+If you want to add a watermark to your map, you've come to the right place!
+
+//TODO: Add a screenshot.
+
+
+## Setup Instructions
 
 To add a "watermark" overlay image to your map, we'll need to write a little bit of JavaScript and CSS.
 

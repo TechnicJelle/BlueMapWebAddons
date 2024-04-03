@@ -1,23 +1,21 @@
 [←Back](..)
 
 # Custom Sidebar Button
+Thanks to community member [@Chicken](https://github.com/Chicken/)
+for being the first to devise a workaround for BlueMap's immutable UI!
 
-There is currently no simple way to do this, sadly. The best way would be to clone the BlueMap webapp source code,
-modify that, and recompile it.  
-That is very complicated, though, and also a lot of effort.
+//TODO: Add a screenshot of the custom button in the sidebar.
 
-Luckily, a community member [@Chicken](https://github.com/Chicken/) has devised a workaround to do this anyway! (Even if it's not ideal...)  
-For this, we will make use of the BlueMap feature that allows us to inject any custom JavaScript snippets that we want.
-
+## Setup Instructions
 To get started, you should create a `.js` file in your webroot (usually `/bluemap/web/`).  
 Then you need to register that script with BlueMap, so it'll actually load it.  
 You do this in `webapp.conf`, by putting the file name in the `scripts: [ ]` list.  
 After adding it to the list, you need to reload BlueMap, so BlueMap applies the changes you've made to the configs.
 You can do so with the `/bluemap reload light` command.
 
-The following codeblock is the content of the script file. You can customise the text of the button by changing what's
+The following code block is the content of the script file. You can customise the text of the button by changing what's
 inside the label div,
-and you can change what it links to by replacing the link in the `a`'s `href` attribute.
+and you can change what it links to by replacing the link in the `<a>`'s `href` attribute.
 
 `/bluemap/web/my-custom-button.js`:
 ```js
