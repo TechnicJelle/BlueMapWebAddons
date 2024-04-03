@@ -11,17 +11,14 @@ Download or copy the [BlueMapCustomSidebarButton.js](BlueMapCustomSidebarButton.
 ([guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons))
 
 ### Options
-You can customise the text of the button by changing what's inside the label div:
-```html
-<div class="label">Visit BlueMap Website</div>
+You can customise the text of the button by changing the function parameters:
+```js
+createButton("https://bluemap.bluecolored.de/", "Visit BlueMap Website");
+createButton("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "Mischievous Button", true);
 ```
 
-And you can change what it links to, by replacing the link in the anchor tag's `href` attribute:
-```html
-<a style="text-decoration: none" href="https://bluemap.bluecolored.de/">
-```
+The first parameter is the URL the button will open when clicked,
+the second is the text displayed on the button,
+and the third is an optional boolean to make it open the link in a new tab.
 
-To open the link in a new tab, instead of in the same tab, add `target="_blank"` to the anchor tag:
-```html
-<a style="text-decoration: none" href="https://bluemap.bluecolored.de/" target="_blank">
-```
+You can have as many buttons as you want, just call the function multiple times.
