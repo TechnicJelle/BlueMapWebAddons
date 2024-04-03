@@ -1,0 +1,14 @@
+/* map [world] icons */
+.side-menu .map-button {
+	overflow: hidden;
+}
+
+.side-menu .map-button .sky {
+	font-size: 2em;
+	margin: 0 1em 0 0.5em;
+}
+
+.side-menu .map-button .sky img {
+	max-width: 32px;
+	max-height: 32px;
+}
