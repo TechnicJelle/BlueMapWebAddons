@@ -1,7 +1,7 @@
 [←Back](..)
 
 # Watermark
-If you want to add a watermark to your map, you've come to the right place!
+If you want to add a clickable watermark to your map, you've come to the right place!
 
 Here's an example watermark image of the BlueMap logo:
 ![image](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/43885800-3c06-4ce0-95d0-c195fe726922)
@@ -9,67 +9,15 @@ Here's an example watermark image of the BlueMap logo:
 
 ## Setup Instructions
 
-To add a "watermark" overlay image to your map, we'll need to write a little bit of JavaScript and CSS.
+This script requires two files: a JavaScript file and a CSS file.  
+Download or copy the JavaScript file ([BlueMapWatermark.js](BlueMapWatermark.js))
+and the CSS file ([BlueMapWatermark.css](BlueMapWatermark.css)) and register them with BlueMap.
 
-To get started, you should create two files: `watermark.js` and `watermark.css` in your webroot (
-usually `/bluemap/web/`).  
-Copy this into both of those files:
+The guides on how to do that are here: [css guide](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look) and [js guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons).
 
-`/bluemap/web/watermark.js`:
-```js
-// JavaScript function to show the watermark
-function showWatermark() {
-    const anchor = document.createElement("a"); //create HTML <a>
-    document.body.appendChild(anchor); //place it on the page
-    anchor.href = "https://bluemap.bluecolored.de/"; //set the link
+## Options
+In the JavaScript file, you can change the `anchor.href` link to change the link the watermark goes to when clicked.
+And you can change the `watermarkImage.src` link to change the actual image of the watermark.
 
-    const watermarkImage = document.createElement("img"); //create HTML <img>
-    anchor.appendChild(watermarkImage); //place it inside the just created <a>
-    watermarkImage.src = "https://avatars.githubusercontent.com/u/42522657"; //set the image URL
-    watermarkImage.id = 'watermarkImage'; //set the tag's ID, so the CSS style will apply to it
-}
-
-// Call the function to show the watermark
-showWatermark();
-```
-
-> Feel free to change the `anchor.href` link and the `watermarkImage.src` link.
-{: .info }
-
-`/bluemap/web/watermark.css`:
-```css
-/* Apply to the HTML tag with the ID 'watermarkImage' */
-#watermarkImage {
-    /* Place the image in the bottom left, 20 pixels from each side. */
-    bottom: 20px;
-    left: 20px;
-
-    /* Adjust this size as needed */
-    max-width: 150px;
-    max-height: 150px;
-
-    display: block;
-    position: fixed;
-    z-index: 9999;
-}
-```
-
-> Feel free to change the placement and the size of the watermark.
-{: .info }
-
-Now you need to register these files with BlueMap, so it'll actually load them.  
-You do this in `webapp.conf`, by putting the file name of the script in the `scripts: [ ]` list,
-and the file name of the style in the `styles: [ ]` list, like this:
-
-```hocon
-scripts: [
-    "watermark.js"
-]
-
-styles: [
-    "watermark.css"
-]
-```
-
-After adding these to the lists, you need to reload BlueMap, so BlueMap applies the changes you've made to the configs.
-You can do so with the `/bluemap reload light` command.
+In the CSS file, you can change the placement and the size of the watermark.  
+If you don’t know how to write CSS yet, here is a good guide: [developer.mozilla.org/en-US/docs/Learn/CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
