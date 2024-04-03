@@ -3,7 +3,8 @@
 # Watermark
 If you want to add a watermark to your map, you've come to the right place!
 
-//TODO: Add a screenshot.
+Here's an example watermark image of the BlueMap logo:
+![image](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/43885800-3c06-4ce0-95d0-c195fe726922)
 
 
 ## Setup Instructions
