@@ -9,8 +9,8 @@ However, there are some workarounds to customise the UI anyway, which you can fi
 
 The proper way to customise the BlueMap UI would be to clone the BlueMap webapp source code, modify that, and recompile it.  
 That is very complicated, though, and also a lot of effort.  
-You can find a guide on how to do this [here](https://bluemap.bluecolored.de/community/Customisation.html), but it is written for people who are already familiar with web development.
-//TODO: ↑ Modify link to the exact heading
+You can find a guide on how to do this [here](https://bluemap.bluecolored.de/community/Customisation.html#advanced-webapp-customisation),
+but please note that it is written for people who are already familiar with web development.
 
 ## Scripts
 - [Custom Sidebar Button](custom-sidebar-button)
