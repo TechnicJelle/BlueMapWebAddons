@@ -25,6 +25,11 @@ You can find the most up-to-date installation instructions for WebApp Scripts on
 Some scripts are designed to be edited by you, however.\
 If that is the case, the README of that script will explain the extra steps required.
 
+## Support
+To get support with any of these addons, scripts, or styles, please join the [BlueMap Discord server](https://bluecolo.red/map-discord)
+and ask your questions in [#3rd-party-support](https://discord.com/channels/665868367416131594/863844716047106068).
+You're welcome to ping me, @TechnicJelle.
+
 ## Contributing
 If you have a script that you think would be useful to others, or have a useful modification to an existing script, 
 please feel free to create a pull request!
