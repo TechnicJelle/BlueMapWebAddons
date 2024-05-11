@@ -4,7 +4,7 @@
 Thanks to community member [@Chicken](https://github.com/Chicken/)
 for being the first to devise a workaround for BlueMap's immutable UI!
 
-![a screenshot of the custom button in the sidebar](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/52011787-83e6-4514-9a85-70ca6180dee9)
+![a screenshot of the custom button in the sidebar](example.png)
 
 ## Installation Instructions
 Download or copy the [BlueMapCustomSidebarButton.js](BlueMapCustomSidebarButton.js) file to your webapp, and register it.

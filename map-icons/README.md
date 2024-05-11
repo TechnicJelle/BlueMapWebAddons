@@ -5,9 +5,9 @@
 Similar to [adding a custom button to the sidebar](../custom-sidebar-button), it's possible to include your own custom world icons.
 This would replace the existing tiny `"•"` to the left of the world name, represented by the sky colors.
 
-| Original | Custom |
-| -------- | ------ |
-| ![image](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/6dc42857-f7b2-4064-8e79-6958b8f6470e) | ![image](https://github.com/TechnicJelle/BlueMapWebScripts/assets/22576047/fcbf6d4c-482d-44b1-b29e-2d4538026fea) |
+| Original               | Custom               |
+|------------------------|----------------------|
+| ![image](original.png) | ![image](custom.png) |
 
 Thanks to community member [@TravelTimN](https://github.com/TravelTimN) for providing this cool feature!
 
