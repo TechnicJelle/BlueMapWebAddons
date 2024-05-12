@@ -16,6 +16,6 @@ If you click the line, it'll show the distance between them.
 
 ## Installation Instructions
 Download or copy the [BlueMapDistanceMeasurer.js](BlueMapDistanceMeasurer.js) file to your webapp, and register it.
-([guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons))
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour))
 
 You don't need to edit the script at all for it to work, and it has no options.

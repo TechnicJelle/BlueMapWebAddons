@@ -8,7 +8,7 @@ for being the first to devise a workaround for BlueMap's immutable UI!
 
 ## Installation Instructions
 Download or copy the [BlueMapCustomSidebarButton.js](BlueMapCustomSidebarButton.js) file to your webapp, and register it.
-([guide](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons))
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour))
 
 ### Options
 You can customise the text of the button by changing the function parameters:

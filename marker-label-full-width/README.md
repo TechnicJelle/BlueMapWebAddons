@@ -12,7 +12,7 @@ which often leads to unwanted line breaks.
 ## Installation Instructions
 
 Download or copy the [BlueMapMarkerLabelFullWidth.css](BlueMapMarkerLabelFullWidth.css) file to your webapp, and register it.
-([guide](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look))
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look))
 
 ## Customization
 

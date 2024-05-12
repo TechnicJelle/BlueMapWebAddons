@@ -10,4 +10,4 @@ By default, it disappears when you try to click it.
 ## Installation Instructions
 
 Download or copy the [BlueMapBlockClickPopupSelect.css](BlueMapBlockClickPopupSelect.css) file to your webapp, and register it.
-([guide](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look))
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look))

@@ -17,4 +17,4 @@ It also hides the position display in the marker popup.
 ## Installation Instructions
 
 Download or copy the [BlueMapHiddenPosition.css](BlueMapHiddenPosition.css) file to your webapp, and register it.\
-([guide](https://bluemap.bluecolored.de/community/Customisation.html#theme-and-look))
+([guide](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look))
