@@ -1,10 +1,10 @@
-# BlueMap Web Scripts
+# BlueMap Web Addons
 
-BlueMap has a feature that allows us to inject any custom JavaScript (and CSS) snippets that we want into the web app.  
+BlueMap has a feature that allows us to inject any custom JavaScript and CSS snippets that we want into the web app.  
 This allows us to add custom functionality to the web app, such as extra buttons, a ruler, and more.  
-This repository contains a collection of some such scripts for the BlueMap Web App.
+This repository contains a collection of some such scripts and styles ("addons") for the BlueMap Web App.
 
-Notice: The BlueMap UI is currently not programmed to be customised, so there is currently no simple way to do this.  
+Notice: The BlueMap UI is currently not programmed to handle being modified other than CSS styling.  
 However, there are some workarounds to customise the UI anyway, which you can find in the scripts below.
 
 The proper way to customise the BlueMap UI would be to clone the BlueMap webapp source code, modify that, and recompile it.  
@@ -25,11 +25,11 @@ but please note that it is written for people who are already familiar with web 
 - [Marker Label Select](marker-label-select)
 
 ## Installation Instructions
-You can find the most up-to-date installation instructions for WebApp Scripts on the
-[BlueMap Wiki](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons).
+You can find the most up-to-date installation instructions for WebApp Scripts and Styles on the
+[BlueMap Wiki](https://bluemap.bluecolored.de/community/Customisation.html).
 
-Some scripts are designed to be edited by you, however.\
-If that is the case, the README of that script will explain the extra steps required.
+Some addons may support or require being edited by you, however.\
+If that is the case, the README of that script will explain the extra steps.
 
 ## Support
 To get support with any of these addons, scripts, or styles, please join the [BlueMap Discord server](https://bluecolo.red/map-discord)
@@ -37,12 +37,12 @@ and ask your questions in [#3rd-party-support](https://discord.com/channels/6658
 You're welcome to ping me, @TechnicJelle.
 
 ## Contributing
-If you have a script that you think would be useful to others, or have a useful modification to an existing script, 
+If you have a script or style that you think would be useful to others, or have a useful modification to an existing one, 
 please feel free to create a pull request!
 
-Make sure that each script has its own folder, with a README.md file that explains
-what the script does, how to install it, and how to use it.  
+Make sure that each addon has its own folder, with a README.md file that explains
+what it does, how to install it, and how to use it.  
 Please make sure that the readme is understandable standalone.  
 It should also contain a demonstration video or screenshot, and a link to the original author.
 
-And don't forget to add your script to the list above!
+And don't forget to add your script or style to the correct list above!
