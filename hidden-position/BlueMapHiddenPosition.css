@@ -1,0 +1,9 @@
+/* Disable coordinates view in the top-right */
+.position-input {
+	display: none;
+}
+
+/* Disable coordinates popup */
+#bm-marker-bm-popup {
+	display: none;
+}

@@ -1,0 +1,6 @@
+.bm-marker-highlight .bm-marker-poi-label, /* POI markers */
+.bm-marker-labelpopup /* Other types of markers */
+{
+	pointer-events: auto;
+	user-select: text;
+}

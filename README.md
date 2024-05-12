@@ -18,6 +18,12 @@ but please note that it is written for people who are already familiar with web 
 - [Map Icons](map-icons)
 - [Watermark](watermark)
 
+## Styles
+- [Block Click Popup Select](block-click-popup-select)
+- [Hidden Position](hidden-position)
+- [Marker Label Full Width](marker-label-full-width)
+- [Marker Label Select](marker-label-select)
+
 ## Installation Instructions
 You can find the most up-to-date installation instructions for WebApp Scripts on the
 [BlueMap Wiki](https://bluemap.bluecolored.de/community/Customisation.html#webapp-script-addons).
