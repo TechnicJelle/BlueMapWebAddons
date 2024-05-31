@@ -18,7 +18,9 @@ and a [guide for the registering css file](https://bluemap.bluecolored.de/commun
 
 ## Options
 In the JavaScript file, you can change the `anchor.href` link to change the link the watermark goes to when clicked.
-And you can change the `watermarkImage.src` link to change the actual image of the watermark.
+And you can change the `watermarkImage.src` link to change the actual image of the watermark.  
+This can be a relative link, to a local file that you copied into BlueMap's webroot somewhere, or it can be a link to an image somewhere else on the internet.  
+I personally recommend always linking to local images, though.
 
 In the CSS file, you can change the placement and the size of the watermark.  
 If you don’t know how to write CSS yet, here is a good guide: [developer.mozilla.org/en-US/docs/Learn/CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
