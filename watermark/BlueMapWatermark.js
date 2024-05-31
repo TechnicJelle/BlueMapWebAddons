@@ -6,7 +6,7 @@ function showWatermark() {
 
 	const watermarkImage = document.createElement("img"); //create HTML <img>
 	anchor.appendChild(watermarkImage); //place it inside the just created <a>
-	watermarkImage.src = "https://avatars.githubusercontent.com/u/42522657"; //set the image URL
+	watermarkImage.src = "assets/logo.png"; //set the image URL
 	watermarkImage.id = 'watermarkImage'; //set the tag's ID, so the CSS style will apply to it
 }
 
