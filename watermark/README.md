@@ -13,8 +13,8 @@ This script requires two files: a JavaScript file and a CSS file.
 Download or copy both the [BlueMapWatermark.js](BlueMapWatermark.js) script file
 and the [BlueMapWatermark.css](BlueMapWatermark.css) style file to your webapp, and register them.
 
-Here is a [guide for the registering js file](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour)
-and a [guide for the registering css file](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look).
+Here is a [guide for registering the js file](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour)
+and a [guide for registering the css file](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look).
 
 ## Options
 In the JavaScript file, you can change the `anchor.href` link to change the link the watermark goes to when clicked.

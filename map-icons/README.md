@@ -18,8 +18,8 @@ This script requires two files: a JavaScript file and a CSS file.
 Download or copy both the [BlueMapMapIcons.js](BlueMapMapIcons.js) script file
 and the [BlueMapMapIcons.css](BlueMapMapIcons.css) style file to your webapp, and register them.
 
-Here is a [guide for the registering js file](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour)
-and a [guide for the registering css file](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look).
+Here is a [guide for registering the js file](https://bluemap.bluecolored.de/community/Customisation.html#custom-scripts-behaviour)
+and a [guide for registering the css file](https://bluemap.bluecolored.de/community/Customisation.html#custom-styles-theme-and-look).
 
 Now, you need to upload the world icon images that you'd like to use, into your assets webroot (usually `/bluemap/web/assets/`).  
 Ideally, have the images be no larger than 32x32 pixels.  
