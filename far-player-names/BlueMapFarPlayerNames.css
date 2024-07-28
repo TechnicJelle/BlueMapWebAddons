@@ -1,0 +1,23 @@
+#map-container .bm-marker-player .bm-player-name {
+	transition:
+		opacity .3s,
+		font-size .3s,
+		top .3s cubic-bezier(.17,.84,.44,1),
+		padding .3s
+	;
+}
+
+
+#map-container .bm-marker-player[distance-data="med"] .bm-player-name,
+#map-container .bm-marker-player[distance-data="far"] .bm-player-name {
+	opacity: 1;
+	font-size: 0.8em;
+	top: 0;
+	padding: 0.15em
+}
+
+#map-container .bm-marker-player[distance-data="far"] .bm-player-name {
+	font-size: 0.6em;
+	top: 0.2em;
+	padding: 0.01em;
+}

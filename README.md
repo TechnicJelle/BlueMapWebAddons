@@ -23,6 +23,7 @@ but please note that it is written for people who are already familiar with web 
 - [Hidden Position](hidden-position)
 - [Marker Label Full Width](marker-label-full-width)
 - [Marker Label Select](marker-label-select)
+- [Far Player Names](far-player-names)
 
 ## Installation Instructions
 You can find the most up-to-date installation instructions for WebApp Scripts and Styles on the
