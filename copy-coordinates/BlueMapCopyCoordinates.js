@@ -38,11 +38,11 @@ window.copyText = function (data) {
   document.body.removeChild(temp);
 };
 
-const original = window.bluemap.popupMarker.onMapInteraction;
-window.bluemap.events.removeEventListener("bluemapMapInteraction", original);
+const originalOnMapInteraction = window.bluemap.popupMarker.onMapInteraction;
+window.bluemap.events.removeEventListener("bluemapMapInteraction", originalOnMapInteraction);
 
 window.bluemap.popupMarker.onMapInteraction = function(evt) {
-  original.call(this, evt);
+  originalOnMapInteraction.call(this, evt);
   poiCounter++;
   const key = `${poiLabel}-${poiCounter}`;
   const data = {
