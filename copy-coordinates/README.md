@@ -81,7 +81,7 @@ Will copy only the "raw" coordinates (x y z):
 #### copymode = 2
 Copies a teleportation command (/teleport x y z) that you can paste into minecraft.
 
-```json
+```
 /teleport 17 93 301
 ```
 
