@@ -17,6 +17,7 @@ but please note that it is written for people who are already familiar with web 
 - [Distance Measurer / Ruler](distance-measurer)
 - [Map Icons](map-icons)
 - [Watermark](watermark)
+- [Copy Coordinates](copy-coordinates)
 
 ## Installation Instructions
 You can find the most up-to-date installation instructions for WebApp Scripts on the
