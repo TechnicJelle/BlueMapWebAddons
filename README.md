@@ -33,6 +33,10 @@ You can find the most up-to-date installation instructions for WebApp Scripts an
 Some addons may support or require being edited by you, however.\
 If that is the case, the README of that script will explain the extra steps.
 
+These web addons are not limited to any specific platform; they work on all platforms that BlueMap supports.  
+Also note that they do *not* go into the `BlueMap/addons` directory!
+That one is for BlueMap Native Addons, which is something else from BlueMap Web Addons.
+
 ## Support
 To get support with any of these addons, scripts, or styles, please join the [BlueMap Discord server](https://bluecolo.red/map-discord)
 and ask your questions in [#3rd-party-support](https://discord.com/channels/665868367416131594/863844716047106068).
