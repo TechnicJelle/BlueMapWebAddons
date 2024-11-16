@@ -2,6 +2,7 @@ const positions = [];
 const distanceLineMarker = new BlueMap.LineMarker("distanceLineMarker");
 distanceLineMarker.line.depthTest = false;
 distanceLineMarker.line.linewidth = 2;
+distanceLineMarker.data.listed = false;
 bluemap.popupMarkerSet.add(distanceLineMarker);
 
 hijack(bluemap.popupMarker, 'open', function (original) {
