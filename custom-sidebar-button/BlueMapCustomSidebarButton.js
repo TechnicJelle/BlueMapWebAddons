@@ -23,7 +23,7 @@ function createButton(link, text, newTab = false) {
 }
 
 function addLine() {
-    buttons.push(document.createElement("hr"));
+	buttons.push(document.createElement("hr"));
 }
 
 // Periodically check if the sidebar is open
