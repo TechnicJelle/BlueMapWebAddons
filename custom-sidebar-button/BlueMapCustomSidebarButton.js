@@ -1,4 +1,4 @@
-const buttons = [];
+const elements = [];
 // <-- Do not edit before here ---
 
 
@@ -19,11 +19,11 @@ function createButton(link, text, newTab = false) {
 	</a>
 	`.trim();
 	const button = buttonTemplate.content.firstChild;
-	buttons.push(button);
+	elements.push(button);
 }
 
 function addLine() {
-	buttons.push(document.createElement("hr"));
+	elements.push(document.createElement("hr"));
 }
 
 // Periodically check if the sidebar is open
@@ -33,6 +33,6 @@ setInterval(() => {
 
 	// Check if the buttons are already in the sidebar
 	if (Array.from(buttonList.children).every(el => el.tagName === "HR" || el.className === "simple-button")) {
-		buttonList.append(...buttons);
+		buttonList.append(...elements);
 	}
 }, 10);
