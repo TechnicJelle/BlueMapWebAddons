@@ -1,7 +1,8 @@
-const buttons = [];
+const elements = [];
 // <-- Do not edit before here ---
 
 
+addLine();
 createButton("https://bluemap.bluecolored.de/", "Visit BlueMap Website");
 createButton("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "Mischievous Button", true);
 
@@ -18,7 +19,11 @@ function createButton(link, text, newTab = false) {
 	</a>
 	`.trim();
 	const button = buttonTemplate.content.firstChild;
-	buttons.push(button);
+	elements.push(button);
+}
+
+function addLine() {
+	elements.push(document.createElement("hr"));
 }
 
 // Periodically check if the sidebar is open
@@ -28,6 +33,6 @@ setInterval(() => {
 
 	// Check if the buttons are already in the sidebar
 	if (Array.from(buttonList.children).every(el => el.tagName === "HR" || el.className === "simple-button")) {
-		buttonList.append(...buttons);
+		buttonList.append(...elements);
 	}
 }, 10);
