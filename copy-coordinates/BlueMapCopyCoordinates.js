@@ -38,11 +38,7 @@ window.copyText = function (data) {
   document.body.removeChild(temp);
 };
 
-const originalOnMapInteraction = window.bluemap.popupMarker.onMapInteraction;
-window.bluemap.events.removeEventListener("bluemapMapInteraction", originalOnMapInteraction);
-
-window.bluemap.popupMarker.onMapInteraction = function(evt) {
-  originalOnMapInteraction.call(this, evt);
+hijack(bluemap.popupMarker, "open", (original) => function() {
   poiCounter++;
   const key = `${poiLabel}-${poiCounter}`;
   const data = {
@@ -67,6 +63,16 @@ window.bluemap.popupMarker.onMapInteraction = function(evt) {
   copyButtonDiv.appendChild(button);
 
   this.element.appendChild(copyButtonDiv);
-}.bind(window.bluemap.popupMarker);
 
-window.bluemap.events.addEventListener("bluemapMapInteraction", window.bluemap.popupMarker.onMapInteraction);
+  return original.call(this);
+}.bind(bluemap.popupMarker));
+
+/**
+ * Hijack a function with custom behavior
+ * @param {object} object Context object containing the function
+ * @param {string} funcName Name of the function to hijack
+ * @param {(original: function) => function} override Override function that wraps the original
+ */
+function hijack(object, funcName, override) {
+	object[funcName] = override(object[funcName]);
+}
