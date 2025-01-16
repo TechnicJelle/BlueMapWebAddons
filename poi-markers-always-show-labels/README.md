@@ -1,6 +1,6 @@
 [←Back](..)
 
-# PoiMarkers-AlwaysShowLabels
+# PoiMarkers Always Show Labels
 
 Make the label of POI markers always to be visible on Bluemap.
 
@@ -11,6 +11,8 @@ Just as the following comparison:
 | Original               | Always Visible               |
 | ---------------------- | ---------------------------- |
 | ![image](original.png) | ![image](always-visible.png) |
+
+Thanks to community member [@yqs112358](https://github.com/yqs112358) for providing this cool feature!
 
 ## Installation Instructions
 
