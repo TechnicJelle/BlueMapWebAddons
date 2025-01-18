@@ -18,7 +18,7 @@ but please note that it is written for people who are already familiar with web 
 - [Map Icons](map-icons)
 - [Watermark](watermark)
 - [Copy Coordinates](copy-coordinates)
-- [PoiMarkers Always Show Labels](poi-markers-always-show-labels)
+- [Always Show Poi Labels](always-show-poi-labels)
 
 ## Styles
 - [Block Click Popup Select](block-click-popup-select)
