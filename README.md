@@ -19,6 +19,7 @@ but please note that it is written for people who are already familiar with web 
 - [Watermark](watermark)
 - [Copy Coordinates](copy-coordinates)
 - [Always Show Poi Labels](always-show-poi-labels)
+- [Reset Settings](reset-settings)
 
 ## Styles
 - [Block Click Popup Select](block-click-popup-select)
