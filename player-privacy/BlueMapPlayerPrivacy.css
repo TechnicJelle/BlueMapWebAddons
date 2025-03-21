@@ -1,0 +1,25 @@
+/* Hide player marker container in-world */
+div:has(> .bm-marker-player) {
+	display: none;
+}
+
+/* Hide player coordinates in the sidebar */
+.marker-item:has(> .follow-player-button) .stats {
+	display: none !important;
+}
+
+/* Center username vertically, now that the coords are gone */
+.marker-item:has(> .follow-player-button) .marker-button {
+	align-items: center;
+	cursor: revert !important;
+}
+
+/* Hide the follow player button */
+.follow-player-button {
+	display: none;
+}
+
+/* Hide distance sorting option */
+.markers:has(.follow-player-button) .choice:last-of-type{
+	display: none;
+}

@@ -16,6 +16,7 @@ but please note that it is written for people who are already familiar with web 
 - [Custom Sidebar Button](custom-sidebar-button)
 - [Distance Measurer / Ruler](distance-measurer)
 - [Map Icons](map-icons)
+- [Player Privacy](player-privacy)
 - [Watermark](watermark)
 - [Copy Coordinates](copy-coordinates)
 - [Always Show Poi Labels](always-show-poi-labels)
