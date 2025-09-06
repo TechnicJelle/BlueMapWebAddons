@@ -3,24 +3,40 @@ document.body.addEventListener("click", function () {
 	setTimeout(updateMapButtons, 50);  // Needs slight delay to work properly
 });
 
+// Check if image exists 
+const imageExists = (url) => new Promise(resolve => {
+    const img = new Image();
+    img.addEventListener('load', () => resolve(true));
+    img.addEventListener('error', () => resolve(false));
+    img.src = url;
+});
+
 // Updating the map buttons
 function updateMapButtons() {
 	// Find map-buttons (if available)
 	const mapButtons = document.querySelectorAll(".map-button");
 	mapButtons?.forEach(button => {
 		// Grab the "title" for the button
-		let buttonTitle = button.getAttribute("title");
+		const buttonTitle = button.getAttribute("title");
 
 		// Grab the "display-name" to update the image alt-text
-		let buttonName = button.querySelector("span.name").innerText;
+		const buttonName = button.querySelector("span.name").innerText;
 
 		// Replace sky "•" with block image
-		let buttonSkySpan = button.querySelector("span.sky");
-		let buttonImg = `assets/${buttonTitle}.png`; // ← Change this to the path and filetype of your image
-		let newImg = new Image();
-		newImg.src = buttonImg;
-		newImg.alt = buttonName;
-		buttonSkySpan.innerText = "";  // Removes the "•"
-		buttonSkySpan.appendChild(newImg);
+		const buttonSkySpan = button.querySelector("span.sky");
+		const buttonImg = `assets/${buttonTitle}.png`; // ← Change this to the path and filetype of your image
+		
+		// Check if image exists
+		imageExists(buttonImg).then(result => {
+		    if (result) {
+		        const newImg = new Image();
+        		newImg.src = buttonImg;
+        		newImg.alt = buttonName;
+        		buttonSkySpan.innerText = "";  // Removes the "•"
+        		buttonSkySpan.appendChild(newImg);
+		    } else {
+		        console.warn(`Image for ${buttonName} (${buttonImg}) does not exist!`);
+		    }
+		})
 	});
 }
