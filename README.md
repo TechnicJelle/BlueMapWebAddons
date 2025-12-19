@@ -28,6 +28,7 @@ but please note that it is written for people who are already familiar with web 
 - [Marker Label Full Width](marker-label-full-width)
 - [Marker Label Select](marker-label-select)
 - [Far Player Names](far-player-names)
+- [Marker Borders](marker-borders)
 
 ## Installation Instructions
 You can find the most up-to-date installation instructions for WebApp Scripts and Styles on the
