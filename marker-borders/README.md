@@ -5,7 +5,7 @@ This is a simple style that adds a small white border to all markers, including 
 By default, BlueMap just has a dropshadow behind each marker icon.
 
 | Original                      | Marker Borders                      |
-| ----------------------------- | ----------------------------------- |
+| :---------------------------: | :---------------------------------: |
 | ![image](original-player.png) | ![image](marker-borders-player.png) |
 | ![image](original-marker.png) | ![image](marker-borders-marker.png) |
 
