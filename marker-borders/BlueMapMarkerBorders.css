@@ -1,0 +1,14 @@
+#map-container .bm-marker-player img,
+#map-container .bm-marker-poi-icon {
+    filter:
+        /* white outline */
+        drop-shadow(1px 0 0 #fff)
+        drop-shadow(-1px 0 0 #fff)
+        drop-shadow(0 1px 0 #fff)
+        drop-shadow(0 -1px 0 #fff)
+
+        /* original soft shadow outside */
+        drop-shadow(1px 1px 3px rgba(0,0,0,.5333333333))
+        !important
+    ;
+}
