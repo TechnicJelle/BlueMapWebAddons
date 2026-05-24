@@ -87,7 +87,7 @@ void async function() {
         }
 
         if (is3d) {
-            const scale = 1 / Math.max(1, density);
+            const scale = 1 / Math.max(Number.EPSILON, density);
             this.elementObject.scale.setScalar(scale);
             this.elementObject.rotation.order = "YXZ";
             this.elementObject.rotation.set(rx, ry, rz, "YXZ");
